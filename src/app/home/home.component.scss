@@ -1,0 +1,95 @@
+.intro {
+    h1 {
+        text-align: center;
+        text-shadow: 2px 2px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    p {
+        text-align: center;
+        line-height: 30px;
+    }
+}
+
+.read {
+    margin-top: 100px;
+    height: 250px;
+    width: 100%;
+    border-radius: 50px;
+    background-image: url(https://img.freepik.com/free-vector/film-strip-reel-watercolor-grunge-background_1017-36655.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1700611200&semt=ais);
+    background-position: center;
+
+    h1 {
+        text-align: center;
+        padding-top: 95px;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: 2px 2px;
+    }
+}
+
+.categorys {
+    padding-top: 80px;
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 2px 2px;
+        text-decoration: double;
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+    .card {
+        border-radius: 17px;
+
+        // box-shadow: 5px 10px 10px 0px;
+        h5 {
+            font-size: 25px;
+            text-transform: uppercase;
+            color: red;
+        }
+
+    }
+
+}
+
+.new-head {
+    h1 {
+        text-align: center;
+        text-shadow: 2px 2px;
+        padding-top: 80px;
+
+
+    }
+}
+
+.cursole {
+    text-align: center;
+    padding-top: 50px;
+
+    .carouselExample {
+        text-align: center;
+        margin: auto;
+    }
+
+    img {
+        border-radius: 17px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .cards {
+        display: block;
+        text-align: left;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

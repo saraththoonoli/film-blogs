@@ -1,0 +1,47 @@
+<section class="container">
+  <h1 id="malayalam">Malayalam Movie review</h1>
+  <div class="card-container">
+    <!-- malayualam film data -->
+    <div *ngFor="let film of malayalamFilms" class="card">
+      <img [src]="film.image" alt="{{ film.title }}" />
+      <div class="card-content">
+        <div class="card-title">{{ film.title }}</div>
+        <div class="card-review">{{ film.review }}</div>
+        <div class="card-rating">Rating: {{ film.rating }}</div>
+        <div class="card-year">Year: {{ film.year }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <h1>Hindi Movie review</h1>
+  <div class="card-container">
+    <!--hindi film data-->
+    <div *ngFor="let film of HindhiFilms" class="card">
+      <img [src]="film.image" alt="{{ film.title }}" />
+      <div class="card-content">
+        <div class="card-title">{{ film.title }}</div>
+        <div class="card-review">{{ film.review }}</div>
+        <div class="card-rating">Rating: {{ film.rating }}</div>
+        <div class="card-year">Year: {{ film.year }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <h1>Spanish Movie review</h1>
+  <div class="card-container">
+    <!-- spanish film data -->
+    <div *ngFor="let film of spanishFilms" class="card">
+      <img [src]="film.image" alt="{{ film.title }}" />
+      <div class="card-content">
+        <div class="card-title">{{ film.title }}</div>
+        <div class="card-review">{{ film.review }}</div>
+        <div class="card-rating">Rating: {{ film.rating }}</div>
+        <div class="card-year">Year: {{ film.year }}</div>
+      </div>
+    </div>
+  </div>
+</section>
